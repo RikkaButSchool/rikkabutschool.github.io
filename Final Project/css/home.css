@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import "importantstuff.css";
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    margin: 0;
+}
+
+.column { 
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    flex: 1; 
+    max-width: 45%; 
+    height: 70vh;
+}
+
+.column img {
+    width: 100%; 
+    height: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px; 
+}
+p{
+    padding: 5px;
+    font-size: 25px;
+}
+.container img{
+ height: 50%;
+ width: 50%;
+}
+@media (max-width: 1200px){
+    image{
+        height: 100px;
+        width: auto;
+    }
+}
